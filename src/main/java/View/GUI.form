@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="View.GUI">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="13" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="457" height="440"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="586de" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="First Polynomial:"/>
+        </properties>
+      </component>
+      <component id="c000d" class="javax.swing.JTextField" binding="firstPolynomial">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="299" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="16"/>
+        </properties>
+      </component>
+      <component id="91eaa" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="104" height="94"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Second Polynomial:"/>
+        </properties>
+      </component>
+      <component id="b1cbe" class="javax.swing.JTextField" binding="secondPolynomial">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="299" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="16"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="fac21" class="javax.swing.JButton" binding="computeButton">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Compute"/>
+        </properties>
+      </component>
+      <component id="5f332" class="javax.swing.JButton" binding="addButton">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="156" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <horizontalTextPosition value="0"/>
+          <text value="Add"/>
+        </properties>
+      </component>
+      <component id="99296" class="javax.swing.JLabel" binding="confirmOpLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Select an Operation.."/>
+        </properties>
+      </component>
+      <vspacer id="38df3">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="3" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <preferred-size width="0" height="10"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <vspacer id="3a80e">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="3" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <preferred-size width="0" height="10"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <component id="6fea8" class="javax.swing.JLabel" binding="computingLabel">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <vspacer id="7790f">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="3" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <preferred-size width="0" height="10"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <component id="93973" class="javax.swing.JLabel" binding="resultingLabel">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <vspacer id="3f6a9">
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="3" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <minimum-size width="0" height="10"/>
+            <preferred-size width="0" height="10"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <component id="5e006" class="javax.swing.JLabel" binding="resultLabel">
+        <constraints>
+          <grid row="12" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="16"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="3f86b" class="javax.swing.JButton" binding="divideButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="156" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Divide"/>
+        </properties>
+      </component>
+      <component id="45ea3" class="javax.swing.JButton" binding="integrateButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="156" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Integrate"/>
+        </properties>
+      </component>
+      <component id="f1b7e" class="javax.swing.JButton" binding="subtractButton">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="156" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Subtract"/>
+        </properties>
+      </component>
+      <component id="ad5e6" class="javax.swing.JButton" binding="multiplyButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="156" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <horizontalTextPosition value="0"/>
+          <text value="Multiply"/>
+        </properties>
+      </component>
+      <component id="635a" class="javax.swing.JButton" binding="derivativeButton">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="156" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <horizontalTextPosition value="0"/>
+          <text value="Derivative"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
